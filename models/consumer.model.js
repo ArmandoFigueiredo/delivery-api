@@ -36,6 +36,6 @@ const consumerSchema = new Schema({
     
 });
 
-const ConsumerModel = model("Consumer", userSchema);
+const ConsumerModel = model("Consumer", consumerSchema);
 
 export { ConsumerModel };
